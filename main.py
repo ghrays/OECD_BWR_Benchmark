@@ -16,7 +16,7 @@ from bokeh.models import HoverTool
 from bokeh.models.widgets import  Button, DataTable, TableColumn
 
 global top500
-
+print(sys.version)
 colors = itertools.cycle(palette)
 top500 = list(itertools.islice(colors, 500))
 
